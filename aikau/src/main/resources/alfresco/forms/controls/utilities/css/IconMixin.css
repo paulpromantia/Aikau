@@ -4,7 +4,7 @@
    background-repeat: no-repeat;
    height: 20px;
    width: 30px;
-   float: left;
+   float: right;
 }
 
 .alfresco-forms-controls-BaseFormControl span.alf-icon + input.dijitInputInner {

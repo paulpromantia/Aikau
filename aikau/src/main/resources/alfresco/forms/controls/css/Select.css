@@ -1,4 +1,37 @@
-.alfresco-forms-controls-BaseFormControl {
+[dir=rtl] .alfresco-forms-controls-BaseFormControl {
+   > .control-row {
+      > .control {
+
+         .dijitSelectLabel {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-align: right;
+            height: 1.2em;
+         }
+
+         > table {
+            background-color: @primary-background-color;
+            border-radius: 3px;
+            tr, td {
+               background: transparent;
+            }
+            td {
+               border: none;
+               padding: 1px 3px;
+               &.dijitArrowButton {
+                  padding-left: 3px;
+                  > input {
+                     border: none;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+
+[dir=ltr].alfresco-forms-controls-BaseFormControl {
    > .control-row {
       > .control {
 

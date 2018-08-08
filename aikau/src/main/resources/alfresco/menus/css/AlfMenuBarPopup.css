@@ -22,10 +22,10 @@
 
 /* This is added to the container node of the menu bar popup to make room for an icon when required */
 .@{alfresco} .alf-menu-bar-popup-label-node {
-   margin-left: 6px;
+   margin-right: 6px;
 }
 
 .@{alfresco} .alfresco-menus-AlfMenuBarPopup__icon {
    display: block;
-   float: left;
+   float: right;
 }

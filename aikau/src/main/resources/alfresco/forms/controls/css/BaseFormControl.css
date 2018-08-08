@@ -90,7 +90,7 @@
    }
    > .control-row > .control {
       display: inline-block;
-      margin-right: 10px;
+      margin-left: 10px;
    }
    > .title-row {
       display: block;
@@ -203,10 +203,10 @@
                }
                > .title-row {
                   display: inline;
-                  float: left;
-                  margin-right: 8px;
+                  float: right;
+                  margin-left: 8px;
                   margin-top: 2px;
-                  text-align: right;
+                  text-align: left;
                   width: @dialog-label-section - 4;
                   > .label {
                      word-break: break-word

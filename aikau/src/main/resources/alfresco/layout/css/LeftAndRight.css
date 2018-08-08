@@ -2,16 +2,16 @@
    width: 100%;
 
    &__left {
-      float: left;
+      float: right;
       > * {
-         float: left;
+         float: right;
       }
    }
 
    &__right {
-      float: right;
+      float: left;
       > * {
-         float: right;
+         float: left;
       }
    }
 }

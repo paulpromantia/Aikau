@@ -1,7 +1,7 @@
 .alfresco-logo-Logo {
-   margin: 9px 16px 8px 8px;
+   margin: 8px 8px 9px 16px;
    &.right-border {
       border-right: @standard-border;
-      padding-right: 14px;
+      padding-left: 14px;
    }
 }

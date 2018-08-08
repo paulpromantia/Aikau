@@ -24,7 +24,7 @@
       cursor: pointer;
       font-size: 25px;
       position: absolute;
-      right: 10px;
+      left: 10px;
       top: 0;
       transition: all .1s ease-out;
    }
@@ -54,14 +54,14 @@
          }
          &__close {
             position: static;
-            right: 0;
-            float: right;
+            left: 0;
+            float: left;
          }
          &__widgets {
             display: block;
-            float: right;
+            float: left;
             margin: 0;
-            margin-right: @normal-font-size;
+            margin-left: @normal-font-size;
             .alfresco-navigation-Link {
                color: @notification-foreground;
                text-decoration: underline;
